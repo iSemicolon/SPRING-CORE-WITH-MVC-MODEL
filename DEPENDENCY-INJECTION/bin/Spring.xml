@@ -4,17 +4,21 @@
 	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
 
+<!-- SETTER INJECTION CONFIGURATION -->
+
 <!-- DEPENDENCY -->
 <bean id="main-engine" class="org.kol.SetterInjectionApp.Engine">
 
 <property name="engineNumber" value="1097"></property>
 <property name="engineType" value="Petrol"></property>
 <property name="engineModel" value="X15 Productivity Series "></property>
+
 </bean>
 
 <!-- Implementaion Logic for BMW -->
 
 <bean id="bmw" class="org.kol.SetterInjectionApp.BmwImpl">
+
 <property name="carNumber" value="2500"></property>
 <property name="color" value="Blue"></property>
 <property name="wheels">
@@ -26,9 +30,41 @@
 </list> 
 </property>
 <property name="engine" ref="main-engine"></property>
+
 </bean>
 
 <!-- Implementaion Logic for AUDI -->
 <bean id="audi" class="org.kol.SetterInjectionApp.AudiImpl"></bean>
+
+<!-- CONSTRUCTOR INJECTION DEPENDENCY -->
+
+<!-- DEPENDENCY -->
+<bean id="new-engine" class="org.kol.ConstructorInjectionApp.Engine">
+
+<constructor-arg name="engineNumber" value="222"></constructor-arg>
+<constructor-arg name="engineType" value="Diesel"></constructor-arg>
+<constructor-arg name="engineModel" value="Duke"></constructor-arg>
+</bean>
+
+<!-- Implementaion Logic for BMW -->
+
+<bean id="new-bmw" class="org.kol.ConstructorInjectionApp.BmwImpl">
+
+<constructor-arg name="carNumber" value="1111"></constructor-arg>
+<constructor-arg name="color" value="Red"></constructor-arg>
+
+<constructor-arg name="wheels">
+<list>
+<value>Wheel1</value>
+<value>Wheel2</value>
+<value>Wheel3</value>
+<value>Wheel4</value>
+</list> 
+</constructor-arg>
+<constructor-arg name="engine" ref="new-engine"></constructor-arg>
+</bean>
+
+<!-- Implementaion Logic for AUDI -->
+<bean id="new-audi" class="org.kol.ConstructorInjectionApp.AudiImpl"></bean>
 
 </beans>
