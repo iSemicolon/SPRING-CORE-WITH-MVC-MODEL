@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+	<!-- AutoWiring Configurations: ByName -->
+
+	<!-- Controller Class -->
+	<bean id="flipkart"
+		class="org.kol.ByNameAutoWiringXmlConfiguration.FlipkartController"
+		autowire="byName">
+
+	</bean>
+
+	<!-- Dependency -->
+
+	<bean id="electronics"
+		class="org.kol.ByNameAutoWiringXmlConfiguration.Electronics"></bean>
+	<bean id="furniture"
+		class="org.kol.ByNameAutoWiringXmlConfiguration.Furniture"></bean>
+	<bean id="cosmetics"
+		class="org.kol.ByNameAutoWiringXmlConfiguration.Cosmetics"></bean>
+
+</beans>
