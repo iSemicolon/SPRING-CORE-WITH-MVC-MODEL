@@ -4,5 +4,6 @@
 	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
 
 <bean id="hello" class="org.kol.ApplicationContextApp.HelloWorld"></bean>
+<bean id="world" class="org.kol.BeanFactoryApp.HelloWorld"></bean>
 
 </beans>
