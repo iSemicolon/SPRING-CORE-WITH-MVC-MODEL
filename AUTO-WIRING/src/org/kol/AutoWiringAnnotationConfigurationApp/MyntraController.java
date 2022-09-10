@@ -1,4 +1,4 @@
-package org.kol.AutoWiringAnnotationConfiguration;
+package org.kol.AutoWiringAnnotationConfigurationApp;
 
 import org.springframework.beans.factory.annotation.Autowired;
 

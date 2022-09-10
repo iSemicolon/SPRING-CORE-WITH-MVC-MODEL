@@ -1,4 +1,4 @@
-package org.kol.AutoWiringAnnotationConfiguration;
+package org.kol.AutoWiringAnnotationConfigurationApp;
 
 public class Electronics {
 

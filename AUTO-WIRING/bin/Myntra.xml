@@ -14,7 +14,7 @@
 
 	<!-- Controller Class -->
 	<bean id="myntra"
-		class="org.kol.AutoWiringAnnotationConfiguration.MyntraController"
+		class="org.kol.AutoWiringAnnotationConfigurationApp.MyntraController"
 		autowire="byName">
 
 	</bean>
@@ -22,13 +22,11 @@
 	<!-- Dependency -->
 
 	<bean id="ec"
-		class="org.kol.AutoWiringAnnotationConfiguration.Electronics"></bean>
+		class="org.kol.AutoWiringAnnotationConfigurationApp.Electronics"></bean>
 	<bean id="fc"
-		class="org.kol.AutoWiringAnnotationConfiguration.Furniture"></bean>
+		class="org.kol.AutoWiringAnnotationConfigurationApp.Furniture"></bean>
 	<bean id="cs"
-		class="org.kol.AutoWiringAnnotationConfiguration.Cosmetics"></bean>
-
-
+		class="org.kol.AutoWiringAnnotationConfigurationApp.Cosmetics"></bean>
 
 
 
