@@ -4,7 +4,7 @@ public class Cosmetics {
 
 	public void lipsticks() {
 
-		System.out.println("Nykaa Eyeliners");
+		System.out.println("Nykaa Eyeliner");
 
 	}
 }

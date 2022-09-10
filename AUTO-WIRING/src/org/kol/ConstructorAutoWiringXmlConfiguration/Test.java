@@ -4,8 +4,9 @@ import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 
 public class Test {
-
-	ApplicationContext context=new ClassPathXmlApplicationContext("Spring.xml");
-	BigBazarController bigbazar=(BigBazarController) context.getBean("bigbazar");
-	bigbazar.purchase();
+	public static void main(String[] args) {
+		ApplicationContext context=new ClassPathXmlApplicationContext("Bigbazar.xml");
+		BigBazarController bigBazar=(BigBazarController) context.getBean("bigbazar");
+		bigBazar.purchase();
+	}
 }

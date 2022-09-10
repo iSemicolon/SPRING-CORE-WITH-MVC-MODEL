@@ -1,8 +1,8 @@
 package org.kol.ConstructorAutoWiringXmlConfiguration;
 
-import org.kol.ByNameAutoWiringXmlConfiguration.Cosmetics;
-import org.kol.ByNameAutoWiringXmlConfiguration.Electronics;
-import org.kol.ByNameAutoWiringXmlConfiguration.Furniture;
+import org.kol.ConstructorAutoWiringXmlConfiguration.Cosmetics;
+import org.kol.ConstructorAutoWiringXmlConfiguration.Electronics;
+import org.kol.ConstructorAutoWiringXmlConfiguration.Furniture;
 
 public class BigBazarController {
 	
