@@ -8,7 +8,7 @@
 
 	<!-- Controller Class -->
 	<bean id="amazon"
-		class="org.kol.ByTypeAutoWiringXmlConfiguration.AmazonController"
+		class="org.kol.ByTypeAutoWiringXmlConfigurationApp.AmazonController"
 		autowire="byType">
 
 
@@ -17,11 +17,11 @@
 	<!-- Dependency -->
 
 	<bean id="any1"
-		class="org.kol.ByTypeAutoWiringXmlConfiguration.Electronics"></bean>
+		class="org.kol.ByTypeAutoWiringXmlConfigurationApp.Electronics"></bean>
 	<bean id="any2"
-		class="org.kol.ByTypeAutoWiringXmlConfiguration.Furniture"></bean>
+		class="org.kol.ByTypeAutoWiringXmlConfigurationApp.Furniture"></bean>
 	<bean id="any3"
-		class="org.kol.ByTypeAutoWiringXmlConfiguration.Cosmetics"></bean>
+		class="org.kol.ByTypeAutoWiringXmlConfigurationApp.Cosmetics"></bean>
 		
 		
 

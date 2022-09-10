@@ -1,4 +1,4 @@
-package org.kol.ByTypeAutoWiringXmlConfiguration;
+package org.kol.ByTypeAutoWiringXmlConfigurationApp;
 
 public class Furniture {
 

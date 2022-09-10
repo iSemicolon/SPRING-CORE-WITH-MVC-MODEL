@@ -1,11 +1,11 @@
-package org.kol.ByTypeAutoWiringXmlConfiguration;
+package org.kol.ByTypeAutoWiringXmlConfigurationApp;
 
-import org.kol.ByTypeAutoWiringXmlConfiguration.Cosmetics;
-import org.kol.ByTypeAutoWiringXmlConfiguration.Electronics;
-import org.kol.ByTypeAutoWiringXmlConfiguration.Furniture;
+import org.kol.ByTypeAutoWiringXmlConfigurationApp.Cosmetics;
+import org.kol.ByTypeAutoWiringXmlConfigurationApp.Electronics;
+import org.kol.ByTypeAutoWiringXmlConfigurationApp.Furniture;
 
 public class AmazonController {
-	
+
 	private Electronics electronics;
 	private Furniture furniture;
 	private Cosmetics cosmetics;
