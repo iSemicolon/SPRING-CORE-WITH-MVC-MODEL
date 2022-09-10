@@ -1,4 +1,4 @@
-package org.kol.ByNameAutoWiringXmlConfiguration;
+package org.kol.ByNameAutoWiringXmlConfigurationApp;
 
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;

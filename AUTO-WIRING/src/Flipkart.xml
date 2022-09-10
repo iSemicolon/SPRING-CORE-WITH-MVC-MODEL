@@ -8,7 +8,7 @@
 
 	<!-- Controller Class -->
 	<bean id="flipkart"
-		class="org.kol.ByNameAutoWiringXmlConfiguration.FlipkartController"
+		class="org.kol.ByNameAutoWiringXmlConfigurationApp.FlipkartController"
 		autowire="byName">
 
 	</bean>
@@ -16,10 +16,10 @@
 	<!-- Dependency -->
 
 	<bean id="electronics"
-		class="org.kol.ByNameAutoWiringXmlConfiguration.Electronics"></bean>
+		class="org.kol.ByNameAutoWiringXmlConfigurationApp.Electronics"></bean>
 	<bean id="furniture"
-		class="org.kol.ByNameAutoWiringXmlConfiguration.Furniture"></bean>
+		class="org.kol.ByNameAutoWiringXmlConfigurationApp.Furniture"></bean>
 	<bean id="cosmetics"
-		class="org.kol.ByNameAutoWiringXmlConfiguration.Cosmetics"></bean>
+		class="org.kol.ByNameAutoWiringXmlConfigurationApp.Cosmetics"></bean>
 
 </beans>
