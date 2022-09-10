@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+	<!-- AutoWiring Configurations: ByType -->
+
+	<!-- Controller Class -->
+	<bean id="amazon"
+		class="org.kol.ByTypeAutoWiringXmlConfiguration.AmazonController"
+		autowire="byType">
+
+
+	</bean>
+
+	<!-- Dependency -->
+
+	<bean id="any1"
+		class="org.kol.ByTypeAutoWiringXmlConfiguration.Electronics"></bean>
+	<bean id="any2"
+		class="org.kol.ByTypeAutoWiringXmlConfiguration.Furniture"></bean>
+	<bean id="any3"
+		class="org.kol.ByTypeAutoWiringXmlConfiguration.Cosmetics"></bean>
+		
+		
+
+
+
+
+
+
+
+</beans>

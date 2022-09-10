@@ -1,8 +1,8 @@
 package org.kol.ByTypeAutoWiringXmlConfiguration;
 
-import org.kol.ByNameAutoWiringXmlConfiguration.Cosmetics;
-import org.kol.ByNameAutoWiringXmlConfiguration.Electronics;
-import org.kol.ByNameAutoWiringXmlConfiguration.Furniture;
+import org.kol.ByTypeAutoWiringXmlConfiguration.Cosmetics;
+import org.kol.ByTypeAutoWiringXmlConfiguration.Electronics;
+import org.kol.ByTypeAutoWiringXmlConfiguration.Furniture;
 
 public class AmazonController {
 	
